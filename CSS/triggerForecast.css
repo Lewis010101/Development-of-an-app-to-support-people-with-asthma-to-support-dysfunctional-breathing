@@ -1,0 +1,92 @@
+body {
+    background: #005eb8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.triggerForecast {
+    max-width: 350px;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.triggerForecast-container {
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+}
+
+.aqiGaugeContainer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#aqiGaugeContainer #aqiMessage {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #003087;
+    font-size: 19px;
+}
+
+.grassPollenGaugeContainer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#grassPollenGaugeContainer #grassPollenMessage {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #003087;
+    font-size: 19px;
+}
+
+.temperatureGaugeContainer {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#temperatureGaugeContainer #temperatureMessage {
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #003087;
+    font-size: 18px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    text-align: center;
+    color: #003087;
+    font-size: 25px;
+}
+
+.topnav {
+    background-color: #005eb8;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #005eb8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    color: #003087;
+    font-size: 18px;
+}

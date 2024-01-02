@@ -1,0 +1,89 @@
+body {
+    background: #005eb8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.symptomTracker,
+.symptomTracker * {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.symptomTracker {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.symptomTracker-container {
+    padding: 30px;
+    background: #ffffff;
+    position: relative;
+    padding-top: 1px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #003087;
+}
+
+.symptomTracker-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #003087;
+    background: #ffffff;
+}
+
+.symptomTracker-input:focus {
+    border-color: #8393F7;
+}
+
+.symptomTracker-input::placeholder {
+    color: #aaaaaa;
+}
+
+.symptomTracker-button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 1px;
+    color: #ffffff;
+    background: #0072ce;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.invalid-feedback {
+    color: #cc0000;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.topnav {
+    background-color: #005eb8;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #005eb8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}

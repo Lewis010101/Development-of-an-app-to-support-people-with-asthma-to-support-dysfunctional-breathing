@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="3a736e64-9856-4bf3-8364-f3413b0ffb32" name="Cafe" url="https://devweb2022.cis.strath.ac.uk/~mfb18124/">
+        <fileTransfer rootFolder="/home/mfb18124/DEVWEB/2022" accessType="SFTP" host="cafe.cis.strath.ac.uk" port="22" sshConfigId="d0b09a7e-0d4b-4a59-a5d8-7cc2c8645470" sshConfig="mfb18124@cafe.cis.strath.ac.uk:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

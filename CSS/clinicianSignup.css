@@ -1,0 +1,88 @@
+body {
+    background: #005eb8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.clinicianSignup,
+.clinicianSignup * {
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.clinicianSignup {
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+    background: #ffffff;
+}
+
+.clinicianSignup-container {
+    padding: 30px;
+}
+
+.clinicianSignup-header {
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 20px;
+    color: #003087;
+}
+
+.invalid-feedback {
+    color: #cc0000;
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.clinicianSignup-input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #003087;
+    background: #ffffff;
+}
+
+.clinicianSignup-input:focus {
+    border-color: #8393F7;
+}
+
+.clinicianSignup-input::placeholder {
+    color: #aaaaaa;
+}
+
+.clinicianSignup-button {
+    padding: 10px;
+    color: #ffffff;
+    background: #0072ce;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.clinicianSignup-button:active {
+    background: #003087;
+}
+
+.clinicianSignup-links {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.clinicianSignup-links a {
+    color: #003087;
+    text-decoration: none;
+}
+
+.clinicianSignup-links a:hover {
+    text-decoration: underline;
+}
